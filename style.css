@@ -4,7 +4,7 @@
 
 /* media queries */
 
-@media (max-width: 1440px) {
+@media {
   /* For a screen < 1440px, this CSS will be read */
 .container {
   width: 640px;
@@ -29,6 +29,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #011936;
+  /*background-image: linear-gradient(to top, rgba(233, 233, 233, 1), rgba(239, 239, 239, 0.72), rgba(255, 255, 255, 0)), url("https://uploads-ssl.webflow.com/5dd7a2d612a2f04e96696fcd/5e667fbe04c8aa39cda25487_diary.png");*/
+  background-image: url("https://uploads-ssl.webflow.com/5dd7a2d612a2f04e96696fcd/5e667fbe04c8aa39cda25487_diary.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-blend-mode: normal;
   background-color: #fafafa;
 }
 
@@ -129,3 +136,5 @@ li {
   display: inline;
   padding: 6px;
 }
+
+
