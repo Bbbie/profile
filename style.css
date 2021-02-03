@@ -1,0 +1,128 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* media queries */
+
+@media (max-width: 1440px) {
+  /* For a screen < 1440px, this CSS will be read */
+.container {
+  width: 640px;
+  margin: 0 auto;
+}
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #011936;
+  background-color: #fafafa;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+#footer h2 {
+  color: #465362;
+}
+
+#introduction p {
+  margin-top: 20px;
+  margin-bottom: 36px;
+  color: #465362;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: #7067CF;
+}
+
+a:hover {
+  color: #5b53b2;
+  transition: color 0.3s;
+}
+
+div {
+  display: bock;
+}
+
+
+.cards {
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 2px 1px 16px rgba(70, 83, 98, 0.20);
+  padding: 40px;
+  margin: 20px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* images */
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#profile-pic {
+  width: 100px;
+}
+
+/* Button design */
+
+.btn-general {
+  padding: 10px 20px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 12px rgba(70, 83, 98, 0.20)
+}
+
+.btn-lavender {
+  color: white;
+  background-color: #7067CF;
+}
+
+.btn-lavender:hover {
+  color: white;
+  background-color: #5b53b2;
+  box-shadow: 1px 1px 6px rgba(70, 83, 98, 0.50)
+  transition: all 0.3s;
+}
+
+/* Social media list in footer */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 24px;
+}
+
+.list-inline {
+  display: inline;
+  padding: 6px;
+}
+
+
